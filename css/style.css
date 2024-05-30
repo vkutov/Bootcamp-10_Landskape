@@ -15,7 +15,7 @@ body {
 
 article.product {
     max-width: 70%;
-    height: 60%;
+    height: 70%;
     background: #fff;
     display: flex;
     flex-direction: row;  
@@ -40,23 +40,26 @@ article.product {
 .product figure figcaption {
     font-size: 1.8rem;
     color:black;
-    margin: auto 2rem .10rem auto;
+    margin: auto 1.5rem .10rem auto;
 }
 
 .product section {
     box-sizing: border-box;
-    padding: 2rem;
+    padding: 1.8rem;
     display: flex;
     flex-direction: column;
 }
 
 .product section h1 {
-    font-size: 1.6rem;
-    margin: 0;
+    font-size: 2rem;
+    margin: 2rem 0 0;
 }
 
 .product section h2 {
-    margin: .25rem 0;
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -71,4 +74,17 @@ p {
     margin: 2rem 0 0 auto;
     font-size: 2rem;
     font-weight: 700;
+}
+
+button {
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: .85rem 1.2rem;
+    color: black;
+    margin: auto 0 0 auto;
+}
+
+button:hover {
+    background: black;
+    color: white;
 }
