@@ -14,16 +14,17 @@ body {
 }
 
 article.product {
-    max-width: 50%;
+    max-width: 70%;
+    height: 60%;
     background: #fff;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;  
     box-shadow: 0 0 2rem rgba(0,0,0,.1);
 }
 
 .product figure {
     margin: 0;
-    flex: 1;
+    padding:3%;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -33,13 +34,13 @@ article.product {
 
 .product figure img {
     width: 80%;
-    margin: 4rem 0;
+    margin: auto;
 }
 
 .product figure figcaption {
-    font-size: .8rem;
-    color: rgba(255,255,255,.4);
-    margin: auto .5rem .5rem auto;
+    font-size: 1.8rem;
+    color:black;
+    margin: auto 2rem .10rem auto;
 }
 
 .product section {
@@ -70,22 +71,4 @@ p {
     margin: 2rem 0 0 auto;
     font-size: 2rem;
     font-weight: 700;
-}
-
-button {
-    appearance: none;
-    border: none;
-    background: none;
-    font-size: 1rem;
-    border: 2px solid black;
-    padding: .75rem 1rem;
-    border-radius: .25rem;
-    color: black;
-    margin: auto 0 0 auto;
-}
-
-button:hover {
-    background: black;
-    color: white;
-    cursor: pointer;
 }
